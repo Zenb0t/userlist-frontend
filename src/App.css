@@ -1,0 +1,68 @@
+html {
+  background-color: lightgray;
+}
+
+.App {
+  background-color: lightgray;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card-position {
+  position: relative;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.collapsed {
+  overflow: hidden;
+  height: 0;
+}
+
+.expanded {
+  height: auto;
+  visibility: visible;
+}
+
+.delete-btn {
+  top: 0.25rem;
+  right: 0.25rem;
+}
+
+.title {
+  font-size: 1.25rem;
+}
+
+.border-1 {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.tag > p {
+  background-color: lightgray;
+  border-radius: 6px;
+  display: inline;
+}
+
+input,
+input:focus {
+  outline-style: none;
+  border-style: none;
+}
+
+.searchInput:focus {
+  border-color: black;
+}
+
+.mdc-card {
+  border-radius: 8px;
+  background-color: #fff;
+  background-color: var(--mdc-theme-surface, #fff);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+}
