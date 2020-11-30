@@ -1,3 +1,9 @@
+# UserList API
+
+This is a small front-end application, which display users from randomuser.me and perform searches based on the users fetched by the API.
+
+Uses Hooks, conditional rendering and Axios, styled with bootstrap.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
